@@ -89,7 +89,7 @@ main {
 #main-section {
     height: auto;
     width: 65%;
-    padding-right: 2rem;
+    padding-right: 2.7rem;
     padding-top: 2.5rem;
     border-right: 1px solid gainsboro;
 }
@@ -108,5 +108,130 @@ main {
     border-bottom: 1px solid black;
     padding-bottom: 1rem;
     margin-left: 1.5rem;
+}
 
+
+/* ARTICOLI */
+
+article {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 120px;
+    margin-top: 2.5rem;
+}
+
+article .text {
+    font-family: 'Roboto', sans-serif;
+    padding-right: 1.5rem;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .7rem;
+    width: 200px;
+    color: rgb(54, 54, 54);
+    margin-bottom: .7rem;
+}
+
+.author i {
+    font-size: 1.3rem;
+}
+
+.text h3 {
+    font-size: 1.4rem;
+}
+
+.text .p {
+    font-size: .85rem;
+    color: rgb(100, 100, 100);
+}
+
+.text .article-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article-bottom .article-bottom-sx {
+    display: flex;
+    align-items: center;
+    margin-top: .5rem;
+    font-size: .7rem;
+    color: rgb(99, 99, 99);
+}
+
+
+.fa-circle {
+    font-size: .15rem;
+    padding: 0 .3rem;
+}
+
+.article-bottom .article-bottom-dx i:first-of-type {
+    padding-right: .8rem;
+    color: rgb(87, 87, 87);
+}
+
+.article-bottom .article-bottom-sx div {
+    height: 20px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 233, 233);
+    border: 1px solid white;
+    border-radius: 10px 10px;
+}
+
+/* IMMAGINE */ 
+
+article div:last-child img {
+    width: 180px;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* DISTANZIATORE ARTICOLI */ 
+
+#main-section .space {
+    height: 1.3rem;
+    width: 100%;
+}
+
+
+/* --------------------------------- */ 
+/* PANNELLO A DESTRA */ 
+
+#right-panel {
+    padding-left: 2.5rem;
+}
+
+.first-panel {
+    height: 200px;
+    width: 100%;
+    padding: 2.2rem 0 1.8rem 0; 
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-panel .fa-medium {
+    font-size: 2rem;
+}
+
+.first-panel .fa-plus {
+    font-size: 1rem;
+    font-weight: 100;
+    color: rgb(145, 145, 145);
+    margin: 0 .3rem;
+}
+
+.first-panel .fa-twitter {
+    font-size: 1.5rem;
+    color: rgb(78, 175, 255);
 }
