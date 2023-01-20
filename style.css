@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Roboto+Serif:opsz,wght@8..144,600&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+/* 
+font-family: 'Oxygen', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Serif', serif;
+
+font-family: 'PT Serif', serif;
+
+*/
+
+* {
+    margin: 0;
+    background-color: white;
+}
+
+body {
+    box-sizing: content-box;
+}
+
+
+header {
+    height: 4.5rem;
+    width: auto;
+    box-shadow: 0px 2px 12px rgb(236, 236, 236);
+    margin-bottom: .5rem;
+    padding: 0 5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {    
+    font-family: 'PT Serif', serif;
+    font-weight: 900;
+    font-size: 2rem;    
+}
+
+#right-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+    width: 25%;
+    min-width: 230px;
+    max-width: 300px;
+}
+
+#right-header div:first-child i {
+    padding-right: .6rem;  
+}
+
+#right-header div:nth-child(2) {
+    border: 1px solid gainsboro;
+    border-radius: 1.2rem 1.2rem;
+    padding: 0 1rem;
+    height: 2rem;
+    width: auto;
+    font-size: .75rem;
+
+    display: flex;
+    align-items: center;
+}
+
+#right-header div:last-child {
+    height: 2.1rem;
+    width: 2.1rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+    font-size: 1.2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* MAIN: INIZIO STILE */
+
+main {
+    display: flex;
+    padding: 0 5rem;
+}
+
+#main-section {
+    height: auto;
+    width: 65%;
+    padding-right: 2rem;
+    padding-top: 2.5rem;
+    border-right: 1px solid gainsboro;
+}
+
+.categories {
+    display: flex;
+    border-bottom: 1px solid gainsboro;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: .7rem;
+    color: rgb(165, 165, 165);
+}
+
+.categories .focused {
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+    margin-left: 1.5rem;
+
+}
